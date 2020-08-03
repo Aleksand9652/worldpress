@@ -111,3 +111,49 @@ h2.title {
 }
 
 
+    /* waiting */
+    .waiting {
+        background-color: #efefef;
+        padding: 85px 0 75px 0;
+        height: 604px;
+    }
+    .waiting-header {
+         color: #252525;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .waiting-line {
+        margin: 0 auto;
+        margin-top: 18px;
+        width: 217px;
+        height: 4px;
+        background-color: #f9bf3b;
+    }
+    .waiting-subheader {
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 23px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 18px;
+    }
+    .waiting-wrapper {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .waiting-description {
+        width: 339px;
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 27px;
+    }
+    .waiting-img {
+        width: 100%;
+    }
