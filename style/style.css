@@ -4,6 +4,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -157,3 +158,36 @@ h2.title {
     .waiting-img {
         width: 100%;
     }
+.optimization {
+    min-height: 604px;
+    padding: 102px 0 107px 0;
+}
+.optimization-header {
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 391px;
+}
+.optimization-text {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    margin-left: 389px;
+    margin-top: 25px;
+}
+.optimization-text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+.optimization-img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
